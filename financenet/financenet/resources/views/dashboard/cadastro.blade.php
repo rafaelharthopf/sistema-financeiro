@@ -18,7 +18,7 @@
 
             <div class="form-group">
                 <label for="data_nascimento">Data de Nascimento</label>
-                <input type="date" class="form-control" id="data_nascimento" name="data_nascimento" >
+                <input type="date" class="form-control" id="data_nascimento" name="data_nascimento">
             </div>
 
             <div class="form-group">
@@ -30,7 +30,6 @@
             </div>
 
 
-
             <div class="form-group">
                 <label for="email">E-mail</label>
                 <input type="email" class="form-control" id="email" name="email" required>
@@ -38,32 +37,32 @@
 
             <div class="form-group">
                 <label for="telefone">Telefone</label>
-                <input type="text" class="form-control" id="telefone" name="telefone" >
+                <input type="text" class="form-control" id="telefone" name="telefone">
             </div>
 
             <div class="form-group">
                 <label for="cidade">Cidade</label>
-                <input type="text" class="form-control" id="cidade" name="cidade" >
+                <input type="text" class="form-control" id="cidade" name="cidade">
             </div>
 
             <div class="form-group">
                 <label for="estado">Estado</label>
-                <input type="text" class="form-control" id="estado" name="estado" >
+                <input type="text" class="form-control" id="estado" name="estado">
             </div>
 
             <div class="form-group">
                 <label for="rua">Rua</label>
-                <input type="text" class="form-control" id="rua" name="rua" >
+                <input type="text" class="form-control" id="rua" name="rua">
             </div>
 
             <div class="form-group">
                 <label for="bairro">Bairro</label>
-                <input type="text" class="form-control" id="bairro" name="bairro" >
+                <input type="text" class="form-control" id="bairro" name="bairro">
             </div>
 
             <div class="form-group">
                 <label for="numero">Número</label>
-                <input type="text" class="form-control" id="numero" name="numero" >
+                <input type="text" class="form-control" id="numero" name="numero">
             </div>
 
             <button type="submit" class="btn btn-primary">Cadastrar</button>
