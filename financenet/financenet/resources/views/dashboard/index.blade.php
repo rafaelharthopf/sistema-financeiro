@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <form>
-    <p>Bem vindo, {{ $user->name }}</p>
+    <form class="form-control">
+        <p>Bem vindo, {{ $user->name }}</p>
+    </form>
 </form>
 @endsection

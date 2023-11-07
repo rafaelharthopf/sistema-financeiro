@@ -14,7 +14,7 @@
 
             <div class="form-group">
                 <label for="data_nascimento">Data de Nascimento</label>
-                <input type="date" class="form-control" id="data_nascimento" name="data_nascimento" value="{{ $cliente->data_nascimento }}" required>
+                <input type="date" class="form-control" id="data_nascimento" name="data_nascimento" value="{{ $cliente->data_nascimento }}">
             </div>
 
             <div class="form-group">
@@ -29,32 +29,32 @@
 
             <div class="form-group">
                 <label for="telefone">Telefone</label>
-                <input type="text" class="form-control" id="telefone" name="telefone" value="{{ $cliente->telefone }}" required>
+                <input type="text" class="form-control" id="telefone" name="telefone" value="{{ $cliente->telefone }}">
             </div>
 
             <div class="form-group">
                 <label for="cidade">Cidade</label>
-                <input type="text" class="form-control" id="cidade" name="cidade" value="{{ $cliente->cidade }}" required>
+                <input type="text" class="form-control" id="cidade" name="cidade" value="{{ $cliente->cidade }}">
             </div>
 
             <div class="form-group">
                 <label for="estado">Estado</label>
-                <input type="text" class="form-control" id="estado" name="estado" value="{{ $cliente->estado }}" required>
+                <input type="text" class="form-control" id="estado" name="estado" value="{{ $cliente->estado }}">
             </div>
 
             <div class="form-group">
                 <label for="rua">Rua</label>
-                <input type="text" class="form-control" id="rua" name="rua" value="{{ $cliente->rua }}" required>
+                <input type="text" class="form-control" id="rua" name="rua" value="{{ $cliente->rua }}">
             </div>
 
             <div class="form-group">
                 <label for="bairro">Bairro</label>
-                <input type="text" class="form-control" id="bairro" name="bairro" value="{{ $cliente->bairro }}" required>
+                <input type="text" class="form-control" id="bairro" name="bairro" value="{{ $cliente->bairro }}">
             </div>
 
             <div class="form-group">
                 <label for="numero">Número</label>
-                <input type="text" class="form-control" id="numero" name="numero" value="{{ $cliente->numero }}" required>
+                <input type="text" class="form-control" id="numero" name="numero" value="{{ $cliente->numero }}">
             </div>
 
             <button type="submit" class="btn btn-primary">Atualizar Cliente</button>
